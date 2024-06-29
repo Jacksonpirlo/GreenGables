@@ -1,0 +1,14 @@
+{
+  "name": "ondas",
+  "version": "1.0.0",
+  "description": "grennGables",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "\"\"\u001b[DJackson Florez",
+  "license": "ISC"
+}
