@@ -563,15 +563,41 @@ a:focus {
 }
 
 .subscribe_section {
-  background-color: #018d19;
+  /* background-color: #018d19; */
+  background-image: url(../images/img/IE_PRIMITIVOLEALINFO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  /* width: 100vh;
+  height: 100vh; */
+  /* width: 100%;
+  height: 100%; */
 }
+
+.container .colegio-container{
+ display: flex;
+}
+
+ .subscribe_section .colegio h2 a {
+  color: rgb(52, 116, 255);
+  font-size: 40px; 
+    /* color: rgb(0, 75, 236); */
+  }
 
 .subscribe_section .colegio {
   display: flex;
   justify-content: space-between;
+  z-index: 20;
   flex-direction: column;
+  margin: 30em;
   align-items: center;
   font-size: 5px;
+}
+
+.subscribe_section .colegio h2,span {
+  font-size: 40px; 
+   width: 100vh;
 }
 
 .subscribe_section .row {

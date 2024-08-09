@@ -7,7 +7,6 @@
 
 @media (max-width: 992px) {
 
-
   .slider_section .slider-container {
     flex-direction: column;
     padding: 0;
@@ -92,14 +91,39 @@
     font-size: 5px;
   }
 
+  .subscribe_section {
+  /* background-color: #018d19; */
+  background-image: url(../images/img/IE_PRIMITIVOLEALINFO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll !important;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  /* width: 100vh;
+  height: 100vh; */
+  /* width: 100%;
+  height: 100%; */
+}
+
+
    .subscribe_section .colegio {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    margin: 1px;
+    margin: 8em;
     font-size: 5px;
+  }
+
+  .subscribe_section .colegio h2 a {
+    color: rgb(52, 116, 255);
+      font-size: 10px !important
+  }
+
+  .subscribe_section .colegio h2,span {
+    font-size: 10px !important; 
+     width: 100% !important;
+     /* margin: 1em; */
   }
 
   .client_section .client_container {
@@ -128,7 +152,28 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+
+  .subscribe_section .colegio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 10em;
+    font-size: 5px;
+  }
+
+  .subscribe_section .colegio h2 a {
+    color: rgb(52, 116, 255);
+      font-size: 15px !important
+  }
+
+  .subscribe_section .colegio h2,span {
+    font-size: 15px !important; 
+     width: 100% !important;
+     /* margin: 1em; */
+  }
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
@@ -141,7 +186,28 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+
+  .subscribe_section .colegio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 10em;
+    font-size: 5px;
+  }
+
+  .subscribe_section .colegio h2 a {
+    color: rgb(52, 116, 255);
+      font-size: 15px !important
+  }
+
+  .subscribe_section .colegio h2,span {
+    font-size: 15px !important; 
+     width: 100% !important;
+     /* margin: 1em; */
+  }
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
