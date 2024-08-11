@@ -234,7 +234,7 @@
 @media (max-width: 360px) {
   .navbar .navbar-toggler .icon-span {
     font-size: 2em !important;
-    color: #fff;
+    color: #fff !important;
   }
 
   .slider_section .carousel-control-prev,
