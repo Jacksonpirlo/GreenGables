@@ -232,6 +232,10 @@
 @media (max-width: 420px) {}
 
 @media (max-width: 360px) {
+  .navbar .navbar-toggler .icon-span {
+    font-size: 2em !important;
+    color: #fff;
+  }
 
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {

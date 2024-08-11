@@ -62,6 +62,11 @@ html {
 
 .navbar .navbar-toggler {
   border: none !important;
+  /* background-color: #b3b3b3; */
+}
+
+.navbar .navbar-toggler .icon-span {
+  font-size: 2em !important;
 }
 
 .sub_page .hero_area {
@@ -598,6 +603,14 @@ a:focus {
 .subscribe_section .colegio h2,span {
   font-size: 40px; 
    width: 100vh;
+}
+
+.subscribe_section .colegio .title-link-web-primitivo {
+  font-size: 40px; 
+   width: 100vh;
+   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .subscribe_section .row {
