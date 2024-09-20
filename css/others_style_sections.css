@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+     font-size: 80.5%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+  }
+
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar .navbar-toggler {
+   margin-right: 40px;
+  }
+  
+
+   .navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;
+  /* border: none !important; */
+  box-shadow: none !important;
+}
+
+
+.secction_legado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+       font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ .secction_legado .head_description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1em;
+    margin-bottom: .8em;
+}
+
+.descriptions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.descriptions p {
+    padding: 20px;
+}
+
+.imgs_cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    margin: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+}
+
+footer p a {
+    text-decoration: none !important;
+    color: #fff;
+}
