@@ -116,5 +116,13 @@ footer p a {
     .head_description h1 {
         margin-top: 1em;
     }
+
+    .navbar-brand span {
+        display: flex;
+    }
+
+    footer {
+        margin-top: 8em;
+    }
     
 }
