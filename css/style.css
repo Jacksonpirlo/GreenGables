@@ -376,6 +376,11 @@ a:focus {
   margin-top: 15px;
 }
 
+.service_section .box .name h6 a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
 .service_section .box .img-box i {
   font-size: 30px;
   color: #0000cc;
